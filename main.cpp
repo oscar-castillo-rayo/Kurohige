@@ -1,3 +1,5 @@
+#include <iostream>
+
 //Escriba un algoritmo que dados los datos a, b, c que representan número enteros diferentes, escriba
 //los números en forma ascendente. Por ejemplo, si los números son 2,3,1, la salida del programa sería: 1,2,3.
 int main() {
@@ -18,13 +20,13 @@ int main() {
 
         }
         else {
-            std::cout << "El órden de los números es: "<< b << " , " << a << " , " << c << std::endl;
+            std::cout << "El órden de los números es: " << b << " , " << a << " , " << c << std::endl;
         }
 
     }
     else if (b > c) {
         if (a > c) {
-            std::cout << "El órden de los números es: "<< c << " , " << a << " , " << b << std::endl;
+            std::cout << "El órden de los números es: " << c << " , " << a << " , " << b << std::endl;
         }
         else {
             std::cout << "El órden de los números es: " << a << " , " << c << " , " << b << std::endl;
